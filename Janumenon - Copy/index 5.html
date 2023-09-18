@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="logo.png">
+    <style>body {
+      background-image: url(pexels-oleksandr-pidvalnyi-376368.jpg);
+      font-family: "Roboto", sans-serif;
+    }
+    
+    .signup-box {
+      width: 370px;
+      height: 645px;
+      margin: auto;
+      background-color: white;
+      border-radius: 3px;
+    }
+    
+    .login-box {
+      width: 370px;
+      height: 280px;
+      margin: auto;
+      border-radius: 3px;
+      background-color: white;
+    }
+    
+    h1 {
+      color: #49c1a2;
+      text-align: center;
+      padding-top: 15px;
+    }
+  
+    h4 {
+      text-align: center;
+    }
+    
+    form {
+      width: 300px;
+      margin-left: 20px;
+    }
+    
+    form label {
+      display: flex;
+      margin-top: 20px;
+      font-size: 18px;
+    }
+    
+    form input {
+      width: 100%;
+      padding: 7px;
+      border: none;
+      border: 1px solid gray;
+      border-radius: 6px;
+      outline: none;
+    }
+    input[type="button"] {
+      width: 320px;
+      height: 35px;
+      margin-top: 20px;
+      border: none;
+      background-color: #49c1a2;
+      cursor: pointer;
+      color: white;
+      font-size: 18px;
+      transition: background-color 0.15s, color 0.15s, opacity 0.15s;
+    }
+  
+    input[type="button"]:hover{
+      opacity: 0.8;
+    }
+  
+    input[type="button"]:active{
+      opacity: 0.6;
+    }
+  
+  
+    p {
+      text-align: center;
+      padding-top: 20px;
+      font-size: 15px;
+    }
+    .para-2 {
+      text-align: center;
+      color: white;
+      font-size: 15px;
+      margin-top: -10px;
+    }
+    .para-2 a {
+      color: #49c1a2;
+    }
+    .blink {
+            position: fixed;
+            bottom: 5%;
+            font-size: 16px;
+            font-weight: bold;
+            animation: blinker 1.5s linear infinite;
+            color: rgb(255, 0, 0) ;
+            font-family: sans-serif;
+        }
+        @keyframes blinker {
+            50% {
+                opacity: 0;
+            }
+        }
+    
+    </style>
+  </head>
+</head>
+<body>
+  <div class="login-box">
+    <h1><i class="fa fa-fw fa-user"></i>Login</h1>
+    <form>
+      <label>Email</label>
+      <input type="email" placeholder="Enter Your Email" />
+      <label>Password</label>
+      <input type="password" placeholder="Enter The Password" />
+      <input type="button" value="Submit" />
+    <closeform></closeform></form>
+  </div>
+  <p class="para-2">
+    Not have an account? <a href="index 6.html" style="text-decoration:none">Sign Up Here</a>
+  </p><br>
+  <marquee class="blink" behavior="scroll" direction="right" scrollamount="5">This is sample of sign in screen.</marquee>
+</body>
+</html>

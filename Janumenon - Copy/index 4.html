@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Portfolio</title>
+        <link rel="icon" type="image/x-icon" href="logo.png"> 
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+        <style>             body, html {
+            background-image: url("pexels-oleksandr-pidvalnyi-376368.jpg");
+        height: 100%;
+        margin: 0;
+        font-family: Arial, Helvetica, sans-serif;
+        backface-visibility: visible;
+        }
+
+        * {
+        box-sizing: border-box;
+
+        }
+
+        .bg-image {
+            backface-visibility: visible;
+        background-image: url("pexels-oleksandr-pidvalnyi-376368.jpg");
+        filter: blur(4px);
+        -webkit-filter: blur(4px);
+        height: 100vh; 
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        }
+
+        .bg-text {
+        margin-top: 65px;
+        background-color: rgb(0,0,0); 
+        background-color: rgba(0,0,0, 0.4); 
+        color: white;
+        font-weight: bold;
+        border-radius: 35px;
+        border: 3px solid #f1f1f1;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 2;
+        width: 90%;
+        padding: 20px;
+        text-align: center;
+        }
+    
+    
+    
+    header{
+
+        width: 100%;
+        height: 75px;
+        display: flex;
+        backface-visibility: visible;
+        justify-content: space-between;
+        align-items: center;
+        padding: 45px 5%;
+        background: rgba(0, 0, 0, 0);
+        top: 0%;
+    }
+    
+    .logo{
+        font-size: 30px;
+        font-weight: bold;
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        color: white;
+        letter-spacing: 1,5px;
+        cursor: pointer;
+        text-transform: uppercase;
+        transition: color 0.15s, font-size 0.15s;
+    }
+    
+    .logo:hover{
+        font-size: 40px;
+    }
+    
+    .logo:active{
+        font-size: 30px;
+    }
+
+    .to{
+        color: #1c49ee;
+    }
+
+    .po{
+        color: #0088ff;
+    }
+
+    .to:hover{
+        color: #0088ff;
+    }
+    
+    .po:hover{
+        color: #1c49ee;
+    }
+
+    a,nav li{
+
+        display: inline-block;
+        list-style: none;
+        padding: 0px 20px;
+        font-size: 16px; 
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+        transition: color 0.15s, font-size 0.15s;
+    }
+    
+    nav li a:hover{
+        color: #1c49ee;
+        font-size: 30px;
+    }
+    
+    nav li a:active{
+        color: #0088ff;
+        font-size: 24px;
+    }
+    
+    .login-botton{
+        font-size: 16px; 
+        font-weight: 500;
+        color: white;
+        cursor: pointer;
+        text-decoration: none;
+     }
+    
+    .login-botton{
+        background: rgba(0,0,0,0.2);
+        border: 2px solid #1c49ee;
+        border-radius: 50px;
+        padding: 9px 25px;
+    }
+    
+    
+    .login-botton:hover{
+        background-color: #0088ff;
+        transition: all 0.4s ease 0s;
+    }
+    
+footer{
+background-color: rgb(210, 36, 36);
+padding-top: 19px;
+padding-bottom: 19px;
+bottom: 0%;
+width: 100%;
+}
+
+.footer-message{
+padding-top: 5px;
+color: white;
+font-family: Verdana;
+text-align: center;
+font-weight: bold;
+font-size: 16px;
+
+}
+
+.dd{
+    text-align: center;
+}
+
+.abt{
+    text-align: center;
+    font-size: 18px;
+}
+
+        </style>
+    </head>
+
+    <body>
+
+        <header>
+            <div class="logo">
+                <p><span class="po">Port</span><span class="to">folio</span></p>
+            </div>
+            <nav>
+                <ul>
+                    <span class="lists">
+                    <li><a href="index 1.html" style="text-decoration:none"><i class="fa fa-fw fa-home"></i>Home</a></li>
+                    <li><a href="index 2.html" style="text-decoration:none"><i class="fa fa-fw fa-envelope"></i> About Me</a></li>
+                    <li><a href="index 3.html" style="text-decoration:none"><i class="glyphicon glyphicon-envelope"></i> Contact</a></li>
+                    <li><a href="index 4.html" style="text-decoration:none"><i class="fa fa-file"></i> Other Websites</a></li>
+                    </span>
+                </ul>
+            </nav>
+            <button class="login-botton"><a href="index 6.html" style="text-decoration:none" target="_blank"><i class="fa fa-fw fa-user"></i> Login</a></button>
+        </header>
+
+        <div class="bg-image"></div>
+        <div class="bg-text">
+            
+            <h1 style="font-size:50px" class="dd"><b>Digital Discoveries</b></h1>
+            <p class="abt">Step into the captivating world of Digital Discoveries, a cutting-edge tech news website that took flight on July 1st, 2023, founded by the visionary Menon. With a singular mission to bring you the latest and most compelling stories from the ever-evolving tech universe, Digital Discoveries is your gateway to a digital wonderland. Dive into a vast reservoir of knowledge, where we curate the most riveting updates on gadgets such as laptops, phones, smartwatches, and more. But that's not all! We cater to all your interests, as our website also offers sports enthusiasts the thrill of real-time updates, automobile aficionados the latest trends in the automotive world, and gamers the hottest insights on the gaming industry. United as one cohesive company, we are committed to providing you with 100% accurate news, granting you free full access to our treasure trove of information.
+
+                At Digital Discoveries, we pride ourselves on our unwavering dedication to excellence, and this is only the beginning. The future holds even more exciting prospects, as our team is tirelessly working to bring you new features and experiences that will leave you astounded. But we can't do it alone; we need your support. Embrace the journey with us, and together, let's redefine the landscape of tech journalism. By subscribing to our newsletter, you'll receive daily updates that will keep you ahead of the curve and informed of every digital breakthrough.
+                
+                Dear readers, you are the heartbeat of our platform, and your participation is key to our success. We humbly request your valuable contribution to increasing our website's popularity, for in doing so, you are fostering a vibrant community of tech enthusiasts like yourself. So don't wait any longer; embark on this thrilling adventure with Digital Discoveries and witness a world of technology unfolding before your very eyes.
+                
+                Visit our website now at https://digitaldiscoveries.infinityfreeapp.com and indulge in the wonders that await you. Should you have any inquiries or wish to reach out to us, don't hesitate to contact us through our user-friendly website. Together, let's shape the future of tech news and discovery!</p>
+          </div>
+
+        
+    </body>
+    <footer>
+        <p class="footer-message 3">Copyright &#169; 2023 Website of Janumenon, inc All rights reserved &#174;</p>
+    </footer>
+</html>
